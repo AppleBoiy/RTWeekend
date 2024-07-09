@@ -1,0 +1,28 @@
+cmake_minimum_required(VERSION 3.28)
+project(RayTracing)
+
+include_directories(include)
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(01_FirstPPM src/01_first_ppm.cpp)
+add_executable(02_TheRayClass src/02_first_ray.cpp)
+add_executable(03_FirstSphere src/03_first_sphere.cpp)
+add_executable(04_FirstSphereWithSurfaceNormal src/04_first_sphere_with_surface_normal.cpp)
+add_executable(05_NormalColorWithGround src/05_normal_color_with_ground.cpp)
+add_executable(06_CameraClass src/06_camera_class.cpp)
+add_executable(07_Antialiasing src/07_antialiasing.cpp)
+add_executable(08_DiffuseMaterial src/08_diffuse_material.cpp)
+add_executable(09_LimitedBounces src/09_limited_bounces.cpp)
+add_executable(10_GammaCorrection src/10_gamma_correction.cpp)
+
+add_executable(11_ShinyMetal src/11_shiny_metal.cpp)
+add_executable(12_FuzzyMetal src/12_fuzzy_metal.cpp)
+add_executable(13_Dielectric src/13_dielectric.cpp)
+add_executable(14_AirBubbles src/14_air_bubbles.cpp)
+add_executable(15_HollowGlassSphere src/15_hollow_glass_sphere.cpp)
+add_executable(16_WideAngleCamera src/16_wide_angle_camera.cpp)
+add_executable(17_AlternateView src/17_alternate_view.cpp)
+add_executable(18_AlternateViewZoom src/18_alternate_view_zoom.cpp)
+add_executable(19_DepthOfField src/19_depth_of_field.cpp)
+
+add_executable(99_FinalScene src/99_final_scene.cpp)
